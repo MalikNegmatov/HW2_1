@@ -7,7 +7,8 @@ public class Main {
         System.out.println(person);
     }
     public static void changePerson(Person person) {
-        person = new Person("Ilya", "Lagutenko");
+        person.name = "Ilya";
+        person.surname = "Lagutenko";
         System.out.println("в методе - " + person);
     }
 }
